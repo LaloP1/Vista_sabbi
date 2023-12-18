@@ -1,0 +1,6 @@
+    <x-navbar />
+
+
+
+</body>
+</html>
