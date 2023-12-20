@@ -11,6 +11,13 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <style>
+        /* Otros estilos que puedas tener */
+    .blurred {
+        filter: blur(5px); /* Ajusta el valor según la cantidad de desenfoque que deseas */
+    }
+
+    </style>
 </head>
 <body class="bg-[#f7faffff]">
 
@@ -29,7 +36,7 @@
             </ul>
         </div>
     </nav>
-    <div class="menu-container w-[50px] hover:w-[300px] h-[92%] bg-[#ffffff] fixed px-[9px] py-[7px] text-[#868b96ff] overflow-hidden border-r-[6px] border-[#ffffff] grid content-between" style="transition: width 0.3s ease;">
+    <div class="menu-container w-[50px] hover:w-[300px] h-[92%] bg-[#ffffff] fixed px-[9px] py-[7px] text-[#868b96ff] overflow-hidden grid content-between" style="transition: width 0.3s ease;">
         <div class="">
             <a href="#">
                 <div class="flex px-[10px] py-[7px] hover:bg-[#f0f1f2] ">
@@ -63,7 +70,7 @@
             </a>
         </div>
 
-        <div class="py-[7px] font-normal text-[13px] text-[#868b96ff]">
+        <div class="py-[7px] font-normal text-[13px] text-[#868b96ff] ">
             <div class="items-center">
                 <div class="flex justify-between misPlantelesContainer">
                     <p>Mis planteles</p>
@@ -90,14 +97,14 @@
                     </a>
                 </div>
             </div>
-            <div class="items-center">
+            <div class="items-center ">
                 <div class="w-auto flex justify-between misPlantelesContainer" >
                     <p>Mis ofertas</p>
                     <a href="#">
                         <i class="fi fi-sr-plus hover:bg-[#f0f1f2] hover:p-1 hover:rounded-full" style="color: #2a4ebb"></i>
                     </a>
                 </div>
-                <div class="flex px-[10px] py-[7px] justify-between hover:bg-[#f0f1f2]">
+                <div class="flex px-[10px] py-[7px] justify-between hover:bg-[#f0f1f2] ">
                     <div class="flex">
                         <p class="w-[25px]"><img class="h-[22px] rounded-full" src="https://www.humanium.org/es/wp-content/uploads/2020/03/shutterstock_1352177318-1536x1024.jpg" alt="primaria"></p>
                         <p class="mx-[15px] ">Primaria</p>
@@ -106,8 +113,8 @@
                         <i class="fi fi-rr-angle-small-right misPlantelesContainer"></i>
                     </a>
                 </div>
-                <div class="flex px-[10px] py-[7px] justify-between hover:bg-[#f0f1f2]">
-                    <div class="flex">
+                <div class="flex px-[10px] py-[7px] justify-between hover:bg-[#f0f1f2] border-r-4 border-r-[#2a4ebb]">
+                    <div class="flex ">
                         <p class="w-[20px]"><img class="h-[20px] rounded-full" src="https://www.pngkey.com/png/full/115-1150152_default-profile-picture-avatar-png-green.png" alt="perfil"></p>
                         <p class="mx-[15px] misPlantelesContainer">Licenciatura en Diseño Grafico Digital</p>
                     </div>
@@ -116,6 +123,7 @@
                     </a>
                 </div>
             </div>
+            <div class="mt-[15px] border-t border-gray-400 w-full"></div>
             <div class="items-center">
                 <div class="flex px-[10px] py-[7px] justify-between">
                     <div class="flex">
